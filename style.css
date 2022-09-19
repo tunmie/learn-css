@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+
+div{
+  width: 800px;
+  height: 400px;
+  background-color: #182671;
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 40px;
+  border-bottom: 4px solid yellow;
+}
+
+div h1 {
+  font-size: 40px;
+  font-family: "roboto";
+  text-transform: uppercase;
+}
+
+div p {
+  font-family: 'Mada';
+  font-size: 14px;
+  width: 500px;
+  margin-top: 50px;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+div a {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Mada';
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 5px;
+}
